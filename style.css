@@ -406,7 +406,10 @@ a img.aligncenter {
 	font-size: 18px;
 	padding: 20px 0px;
 }
-
+.heading h2{
+	color: #ffffff;
+	font-size: 35px;
+}
 .heading h3{
 	color: ffffff;
 }
