@@ -413,6 +413,24 @@ a img.aligncenter {
 .heading h3{
 	color: #ffffff;
 }
+.heading .social li{ display: inline-block; }
+.heading .social li a{
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    border: 1px solid #28a9e2;
+    background: #fff;
+    font-size: 17px;
+    color: #28a9e2;
+    text-align: center;
+    transition: all 0.5s ease 0s;
+}
+.heading:hover .social li a{
+    background: #1c142b;
+    color: #fff;
+}
 
 .cd-words-wrapper {
   display: inline-block;
@@ -2231,7 +2249,7 @@ select.mobile-device {
     color: #bcbcbc;
 }
 
-#contact {
+.contact {
     background: url(images/1.jpg) no-repeat center center #ffffff;
 }
 
