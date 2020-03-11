@@ -540,7 +540,9 @@ xclip
 .section.wb {
     background-color: #ffffff;
 }
-
+.section.wb p{
+	font-size: 18px;
+}
 .section.lb {
     background-color: #f2f3f5;
 }
